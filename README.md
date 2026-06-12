@@ -9,7 +9,5 @@ Projects range from basic combinational and sequential circuits to advanced RTL 
 - Shift Registers
 - FSMs
 - FIFOs
-- UART
-- SPI
 
 Each project includes RTL code, testbench, simulation waveform, and project documentation where applicable.
