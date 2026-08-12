@@ -57,19 +57,14 @@ module tb_ring_counter;
     // Test sequence
     initial begin
 
-        // Initial values
         rst = 0;
 
-        // Apply reset
         reset_counter();
 
-        // Run for 10 clock cycles
         run_counter(9);
 
-        // Apply reset again
         reset_counter();
 
-        // Run again
         run_counter(7);
 
         $finish;
